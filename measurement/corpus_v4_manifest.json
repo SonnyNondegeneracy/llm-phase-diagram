@@ -1,0 +1,1634 @@
+[
+ {
+  "id": "pg19-00",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 0,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 57721,
+   "mistralai/Mistral-7B-v0.3": 63738,
+   "mistralai/Mistral-Nemo-Base-2407": 58567,
+   "tiiuae/Falcon3-7B-Base": 57815,
+   "ibm-granite/granite-3.1-8b-base": 67947
+  },
+  "chars": 249431,
+  "sha256": "5d3822a84681d2d9a243a4215e15346a84d0df49defe3e53539653ffd8707a9d"
+ },
+ {
+  "id": "pg19-01",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 1,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 81680,
+   "mistralai/Mistral-7B-v0.3": 92473,
+   "mistralai/Mistral-Nemo-Base-2407": 82773,
+   "tiiuae/Falcon3-7B-Base": 83226,
+   "ibm-granite/granite-3.1-8b-base": 97999
+  },
+  "chars": 318194,
+  "sha256": "6a29171d3b00c85ac25d7fdce63d5ffbd9b4688e41922d4285a29ebe2fd09954"
+ },
+ {
+  "id": "pg19-02",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 2,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 76786,
+   "mistralai/Mistral-7B-v0.3": 85591,
+   "mistralai/Mistral-Nemo-Base-2407": 77434,
+   "tiiuae/Falcon3-7B-Base": 76447,
+   "ibm-granite/granite-3.1-8b-base": 91131
+  },
+  "chars": 309465,
+  "sha256": "fcb8aa4bc4bdbbe3d74a2bfb584fc305d4c9f317cf46a1c0ca2296fea59eddbc"
+ },
+ {
+  "id": "pg19-03",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 3,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 77655,
+   "mistralai/Mistral-7B-v0.3": 85183,
+   "mistralai/Mistral-Nemo-Base-2407": 78862,
+   "tiiuae/Falcon3-7B-Base": 76206,
+   "ibm-granite/granite-3.1-8b-base": 90166
+  },
+  "chars": 343094,
+  "sha256": "8c26ef6d668e10dba38cee0d890b1a155369040456b1b6a0bf07c648c210a4f1"
+ },
+ {
+  "id": "pg19-04",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 5,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 55756,
+   "mistralai/Mistral-7B-v0.3": 63525,
+   "mistralai/Mistral-Nemo-Base-2407": 56305,
+   "tiiuae/Falcon3-7B-Base": 59077,
+   "ibm-granite/granite-3.1-8b-base": 65599
+  },
+  "chars": 216914,
+  "sha256": "b5a2c518abe1957d1414bcb007dca962fc9e82f491201b31dd3918f10d1f28e2"
+ },
+ {
+  "id": "pg19-05",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 6,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 100848,
+   "mistralai/Mistral-7B-v0.3": 117438,
+   "mistralai/Mistral-Nemo-Base-2407": 102032,
+   "tiiuae/Falcon3-7B-Base": 109176,
+   "ibm-granite/granite-3.1-8b-base": 122862
+  },
+  "chars": 400000,
+  "sha256": "d112cfe953b155b52293282683da88bb3a73e1f1a746f26f0ad7fed53a48b488"
+ },
+ {
+  "id": "pg19-06",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 7,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 29695,
+   "mistralai/Mistral-7B-v0.3": 32379,
+   "mistralai/Mistral-Nemo-Base-2407": 29922,
+   "tiiuae/Falcon3-7B-Base": 29123,
+   "ibm-granite/granite-3.1-8b-base": 34369
+  },
+  "chars": 128528,
+  "sha256": "a7fc762d864c2f3550f09e8b9a4d2b3d1a9dcb8b924a5b0ff276e65125c793d9"
+ },
+ {
+  "id": "pg19-07",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 8,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 85132,
+   "mistralai/Mistral-7B-v0.3": 95119,
+   "mistralai/Mistral-Nemo-Base-2407": 86560,
+   "tiiuae/Falcon3-7B-Base": 87443,
+   "ibm-granite/granite-3.1-8b-base": 99630
+  },
+  "chars": 345713,
+  "sha256": "2748e2d00cfcbd7af9885decf554a4aacb3298014ec8f2804455349345bb7cd6"
+ },
+ {
+  "id": "pg19-08",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 9,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 24526,
+   "mistralai/Mistral-7B-v0.3": 27732,
+   "mistralai/Mistral-Nemo-Base-2407": 24881,
+   "tiiuae/Falcon3-7B-Base": 26292,
+   "ibm-granite/granite-3.1-8b-base": 28144
+  },
+  "chars": 100250,
+  "sha256": "0c1bf7f8943bf2d250040740744ded876fa7649054ee01ac0dc31ec7e4bf2d35"
+ },
+ {
+  "id": "pg19-09",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 10,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 105148,
+   "mistralai/Mistral-7B-v0.3": 117296,
+   "mistralai/Mistral-Nemo-Base-2407": 106098,
+   "tiiuae/Falcon3-7B-Base": 105240,
+   "ibm-granite/granite-3.1-8b-base": 122012
+  },
+  "chars": 400000,
+  "sha256": "21e0ce254c8706206e7cc9f20420020a439f68bc024c1355e100af6c5077b48d"
+ },
+ {
+  "id": "pg19-10",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 11,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 29086,
+   "mistralai/Mistral-7B-v0.3": 31334,
+   "mistralai/Mistral-Nemo-Base-2407": 29289,
+   "tiiuae/Falcon3-7B-Base": 29124,
+   "ibm-granite/granite-3.1-8b-base": 31861
+  },
+  "chars": 122029,
+  "sha256": "f40ed3f814aaa5be0dd292253e51df4ff112c999e2eccb0f2edd4e67035a8122"
+ },
+ {
+  "id": "pg19-11",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 12,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 107165,
+   "mistralai/Mistral-7B-v0.3": 117439,
+   "mistralai/Mistral-Nemo-Base-2407": 105472,
+   "tiiuae/Falcon3-7B-Base": 109266,
+   "ibm-granite/granite-3.1-8b-base": 121459
+  },
+  "chars": 400000,
+  "sha256": "c6d5611444e942be058a8d6de3c6b7756e495e88d027774cab08e4f54413b060"
+ },
+ {
+  "id": "pg19-12",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 13,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 86532,
+   "mistralai/Mistral-7B-v0.3": 97852,
+   "mistralai/Mistral-Nemo-Base-2407": 88368,
+   "tiiuae/Falcon3-7B-Base": 91532,
+   "ibm-granite/granite-3.1-8b-base": 101340
+  },
+  "chars": 346753,
+  "sha256": "418d01bc84a9432032604dec1efa12ced6c035661fb8c24b780ee6e0f604e8a0"
+ },
+ {
+  "id": "pg19-13",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 14,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 93236,
+   "mistralai/Mistral-7B-v0.3": 101098,
+   "mistralai/Mistral-Nemo-Base-2407": 93520,
+   "tiiuae/Falcon3-7B-Base": 92896,
+   "ibm-granite/granite-3.1-8b-base": 105570
+  },
+  "chars": 400000,
+  "sha256": "849f38ba98c580073238bdaa8a76f2c3842847ab48ed4bcf1687dfb41cfb3cf7"
+ },
+ {
+  "id": "pg19-14",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 16,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 100280,
+   "mistralai/Mistral-7B-v0.3": 116294,
+   "mistralai/Mistral-Nemo-Base-2407": 101934,
+   "tiiuae/Falcon3-7B-Base": 108322,
+   "ibm-granite/granite-3.1-8b-base": 119518
+  },
+  "chars": 394038,
+  "sha256": "a34195170af4a35bde45ed246079ff540531a812c826a589d3c4f8ee6b940053"
+ },
+ {
+  "id": "pg19-15",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 17,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 80176,
+   "mistralai/Mistral-7B-v0.3": 90714,
+   "mistralai/Mistral-Nemo-Base-2407": 81323,
+   "tiiuae/Falcon3-7B-Base": 83683,
+   "ibm-granite/granite-3.1-8b-base": 93712
+  },
+  "chars": 328864,
+  "sha256": "59edf9d77ea06446ce0f7239ad0530615a18323f80d5ec990f1c40ce5c85ca52"
+ },
+ {
+  "id": "pg19-16",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 18,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 95843,
+   "mistralai/Mistral-7B-v0.3": 107767,
+   "mistralai/Mistral-Nemo-Base-2407": 97209,
+   "tiiuae/Falcon3-7B-Base": 100348,
+   "ibm-granite/granite-3.1-8b-base": 112887
+  },
+  "chars": 400000,
+  "sha256": "fb321dec33f1dbf65ebab2867de8855df7466053b5c429e960098731c8a7fea9"
+ },
+ {
+  "id": "pg19-17",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 19,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 21042,
+   "mistralai/Mistral-7B-v0.3": 23392,
+   "mistralai/Mistral-Nemo-Base-2407": 21305,
+   "tiiuae/Falcon3-7B-Base": 21798,
+   "ibm-granite/granite-3.1-8b-base": 24234
+  },
+  "chars": 84345,
+  "sha256": "943a7d92e88a31d7713ac1e330e6c46b0a83c1ee5ab87f77079d9222d0cbed04"
+ },
+ {
+  "id": "pg19-18",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 20,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 41585,
+   "mistralai/Mistral-7B-v0.3": 45711,
+   "mistralai/Mistral-Nemo-Base-2407": 42045,
+   "tiiuae/Falcon3-7B-Base": 41906,
+   "ibm-granite/granite-3.1-8b-base": 48662
+  },
+  "chars": 165781,
+  "sha256": "cc307466f6840e9b3300ca34b7bd64c7150e489802c1619194be08109753717e"
+ },
+ {
+  "id": "pg19-19",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 21,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 94038,
+   "mistralai/Mistral-7B-v0.3": 104577,
+   "mistralai/Mistral-Nemo-Base-2407": 95123,
+   "tiiuae/Falcon3-7B-Base": 93725,
+   "ibm-granite/granite-3.1-8b-base": 112455
+  },
+  "chars": 400000,
+  "sha256": "d0ce0afe7f74c8c5f0691500ce444790ad9abc60542e877371d63782a1631536"
+ },
+ {
+  "id": "pg19-20",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 22,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 41450,
+   "mistralai/Mistral-7B-v0.3": 45665,
+   "mistralai/Mistral-Nemo-Base-2407": 41818,
+   "tiiuae/Falcon3-7B-Base": 41428,
+   "ibm-granite/granite-3.1-8b-base": 48071
+  },
+  "chars": 168944,
+  "sha256": "b876334e1a8b7d2f3d3e8083be365fdc8cc0807e4a70ce0cfa4bd54698ecb7e2"
+ },
+ {
+  "id": "pg19-21",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 23,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 95559,
+   "mistralai/Mistral-7B-v0.3": 103770,
+   "mistralai/Mistral-Nemo-Base-2407": 95752,
+   "tiiuae/Falcon3-7B-Base": 95458,
+   "ibm-granite/granite-3.1-8b-base": 106825
+  },
+  "chars": 400000,
+  "sha256": "e0fdfeb5501a914192ade820ba0c27bac712358525f719e89a9dcabb26f1b35e"
+ },
+ {
+  "id": "pg19-22",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 24,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 48659,
+   "mistralai/Mistral-7B-v0.3": 54496,
+   "mistralai/Mistral-Nemo-Base-2407": 49231,
+   "tiiuae/Falcon3-7B-Base": 50530,
+   "ibm-granite/granite-3.1-8b-base": 56189
+  },
+  "chars": 186350,
+  "sha256": "9a7e8aaa078503ef358b7a29a948a1bc3de04baa0d6ab644a316e72ff9c189d7"
+ },
+ {
+  "id": "pg19-23",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 25,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 37565,
+   "mistralai/Mistral-7B-v0.3": 41845,
+   "mistralai/Mistral-Nemo-Base-2407": 37835,
+   "tiiuae/Falcon3-7B-Base": 37596,
+   "ibm-granite/granite-3.1-8b-base": 44157
+  },
+  "chars": 150828,
+  "sha256": "3dea5e2b39edf0d72304addf2e5b89ddc39edbc60dc6311b9be14a2bbbbb8841"
+ },
+ {
+  "id": "pg19-24",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 26,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 65466,
+   "mistralai/Mistral-7B-v0.3": 74421,
+   "mistralai/Mistral-Nemo-Base-2407": 66588,
+   "tiiuae/Falcon3-7B-Base": 69240,
+   "ibm-granite/granite-3.1-8b-base": 77871
+  },
+  "chars": 269572,
+  "sha256": "144f28414797f605df61eef346291f9b8b99e9d6709f721a68d86d63ef43ef87"
+ },
+ {
+  "id": "pg19-25",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 27,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20047,
+   "mistralai/Mistral-7B-v0.3": 21708,
+   "mistralai/Mistral-Nemo-Base-2407": 20173,
+   "tiiuae/Falcon3-7B-Base": 20044,
+   "ibm-granite/granite-3.1-8b-base": 23111
+  },
+  "chars": 80805,
+  "sha256": "6fc909e06cf2b18b32e7ee843e43ba38c72bb77b7b398bfcb2bff8e3f2db3811"
+ },
+ {
+  "id": "pg19-26",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 29,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 96791,
+   "mistralai/Mistral-7B-v0.3": 110170,
+   "mistralai/Mistral-Nemo-Base-2407": 98202,
+   "tiiuae/Falcon3-7B-Base": 101914,
+   "ibm-granite/granite-3.1-8b-base": 117828
+  },
+  "chars": 400000,
+  "sha256": "5ad6f2d17137c0ca8c5fc1be9a07f009ca059b29cfe713d215c28ba2875801fe"
+ },
+ {
+  "id": "pg19-27",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 30,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 94597,
+   "mistralai/Mistral-7B-v0.3": 105341,
+   "mistralai/Mistral-Nemo-Base-2407": 95757,
+   "tiiuae/Falcon3-7B-Base": 95088,
+   "ibm-granite/granite-3.1-8b-base": 110133
+  },
+  "chars": 400000,
+  "sha256": "59b2fe4a42864ea06115472aa16cabba4e35f5c46c9b46dfe997fad63d9b6594"
+ },
+ {
+  "id": "pg19-28",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 31,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 94565,
+   "mistralai/Mistral-7B-v0.3": 105466,
+   "mistralai/Mistral-Nemo-Base-2407": 95606,
+   "tiiuae/Falcon3-7B-Base": 96375,
+   "ibm-granite/granite-3.1-8b-base": 112532
+  },
+  "chars": 385078,
+  "sha256": "a959fe71559a5df38c12ad10628fd9d6b06cc6ad6e43eae330bcca94be6723f5"
+ },
+ {
+  "id": "pg19-29",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 32,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 98498,
+   "mistralai/Mistral-7B-v0.3": 107564,
+   "mistralai/Mistral-Nemo-Base-2407": 99599,
+   "tiiuae/Falcon3-7B-Base": 97939,
+   "ibm-granite/granite-3.1-8b-base": 113287
+  },
+  "chars": 400000,
+  "sha256": "65bae9df832af761267f0bcb0957485cffdfce72b126e5e57bc3fab3d20fa941"
+ },
+ {
+  "id": "pg19-30",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 33,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 78893,
+   "mistralai/Mistral-7B-v0.3": 86943,
+   "mistralai/Mistral-Nemo-Base-2407": 79791,
+   "tiiuae/Falcon3-7B-Base": 79311,
+   "ibm-granite/granite-3.1-8b-base": 91719
+  },
+  "chars": 316240,
+  "sha256": "54fbb1f91be211d3bd02242de8456a5bd45ddaf6849dff25d8b60881ccd28b5e"
+ },
+ {
+  "id": "pg19-31",
+  "source": "pg19",
+  "repo": "emozilla/pg19",
+  "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+  "split": "test",
+  "index": 34,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 51313,
+   "mistralai/Mistral-7B-v0.3": 58312,
+   "mistralai/Mistral-Nemo-Base-2407": 52295,
+   "tiiuae/Falcon3-7B-Base": 54573,
+   "ibm-granite/granite-3.1-8b-base": 58908
+  },
+  "chars": 203142,
+  "sha256": "97170ba3aad91e6a39790eae63244fedd52f58dde790a0ac1ea008f595aa13e1"
+ },
+ {
+  "id": "arxiv-00",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 17,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 18310,
+   "mistralai/Mistral-7B-v0.3": 18780,
+   "mistralai/Mistral-Nemo-Base-2407": 18048,
+   "tiiuae/Falcon3-7B-Base": 21890,
+   "ibm-granite/granite-3.1-8b-base": 18760
+  },
+  "chars": 55705,
+  "sha256": "907eb969caa83a346cf385b27a9f52eac9a093d50492e30f036419d1b8f1b6b1"
+ },
+ {
+  "id": "arxiv-01",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 24,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20659,
+   "mistralai/Mistral-7B-v0.3": 21326,
+   "mistralai/Mistral-Nemo-Base-2407": 20380,
+   "tiiuae/Falcon3-7B-Base": 23691,
+   "ibm-granite/granite-3.1-8b-base": 21448
+  },
+  "chars": 82730,
+  "sha256": "9570be7bb43a22966fa2489268c1af3ae9c28c753993fdfa06b18f67097abc11"
+ },
+ {
+  "id": "arxiv-02",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 64,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 22401,
+   "mistralai/Mistral-7B-v0.3": 23272,
+   "mistralai/Mistral-Nemo-Base-2407": 22302,
+   "tiiuae/Falcon3-7B-Base": 26544,
+   "ibm-granite/granite-3.1-8b-base": 23532
+  },
+  "chars": 71062,
+  "sha256": "21f3db83030b678b1cc09733fed5b872d03de6e96a7926192b2983c6b70250e3"
+ },
+ {
+  "id": "arxiv-03",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 65,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 21079,
+   "mistralai/Mistral-7B-v0.3": 21738,
+   "mistralai/Mistral-Nemo-Base-2407": 20699,
+   "tiiuae/Falcon3-7B-Base": 24109,
+   "ibm-granite/granite-3.1-8b-base": 21998
+  },
+  "chars": 76818,
+  "sha256": "3217cc1037e47ae21e2358e92e3822738d62bfb44d08570752e98a53224a04ca"
+ },
+ {
+  "id": "arxiv-04",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 100,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 29781,
+   "mistralai/Mistral-7B-v0.3": 30582,
+   "mistralai/Mistral-Nemo-Base-2407": 29665,
+   "tiiuae/Falcon3-7B-Base": 34864,
+   "ibm-granite/granite-3.1-8b-base": 30656
+  },
+  "chars": 91686,
+  "sha256": "96b351529c8219a895caae3af35568fddc4ec59559fe1eb9f3cfb5878851e3e8"
+ },
+ {
+  "id": "arxiv-05",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 114,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20381,
+   "mistralai/Mistral-7B-v0.3": 21216,
+   "mistralai/Mistral-Nemo-Base-2407": 20124,
+   "tiiuae/Falcon3-7B-Base": 23247,
+   "ibm-granite/granite-3.1-8b-base": 21243
+  },
+  "chars": 77658,
+  "sha256": "6a6dd9467a056cb350825416c9fca8bfe47f7326bb6b5ee2fcfa1b1a17998839"
+ },
+ {
+  "id": "arxiv-06",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 123,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17548,
+   "mistralai/Mistral-7B-v0.3": 17586,
+   "mistralai/Mistral-Nemo-Base-2407": 16977,
+   "tiiuae/Falcon3-7B-Base": 20150,
+   "ibm-granite/granite-3.1-8b-base": 17964
+  },
+  "chars": 65565,
+  "sha256": "816cf4ad2a6386a9fc40cfbe80a6c6b80e4c8bcb3bf7f75d1496bde4e815f831"
+ },
+ {
+  "id": "arxiv-07",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 125,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 27348,
+   "mistralai/Mistral-7B-v0.3": 27147,
+   "mistralai/Mistral-Nemo-Base-2407": 25926,
+   "tiiuae/Falcon3-7B-Base": 31178,
+   "ibm-granite/granite-3.1-8b-base": 27554
+  },
+  "chars": 82441,
+  "sha256": "2ce207ee319e86d23d3344f42a97db1045b628f329d2a9c2a3ec86a0c0b7f280"
+ },
+ {
+  "id": "arxiv-08",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 127,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 26651,
+   "mistralai/Mistral-7B-v0.3": 27723,
+   "mistralai/Mistral-Nemo-Base-2407": 26756,
+   "tiiuae/Falcon3-7B-Base": 30184,
+   "ibm-granite/granite-3.1-8b-base": 27618
+  },
+  "chars": 98762,
+  "sha256": "a8ad65f234f8bca9e9c1647b8bfa86383d718709bf2d30313b6cb203c057d800"
+ },
+ {
+  "id": "arxiv-09",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 128,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17161,
+   "mistralai/Mistral-7B-v0.3": 17897,
+   "mistralai/Mistral-Nemo-Base-2407": 16955,
+   "tiiuae/Falcon3-7B-Base": 19503,
+   "ibm-granite/granite-3.1-8b-base": 18396
+  },
+  "chars": 71138,
+  "sha256": "04c32e86cacd39517e899ce307f355a8ad24e50ce266d051f8b4b94cfdadc40f"
+ },
+ {
+  "id": "arxiv-10",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 154,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20572,
+   "mistralai/Mistral-7B-v0.3": 21414,
+   "mistralai/Mistral-Nemo-Base-2407": 20295,
+   "tiiuae/Falcon3-7B-Base": 22723,
+   "ibm-granite/granite-3.1-8b-base": 21871
+  },
+  "chars": 90246,
+  "sha256": "35d78183543e5eb197819f9d6dcad99758aabc7eb60762dd8e22a40219bd0d50"
+ },
+ {
+  "id": "arxiv-11",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 166,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20684,
+   "mistralai/Mistral-7B-v0.3": 21199,
+   "mistralai/Mistral-Nemo-Base-2407": 20122,
+   "tiiuae/Falcon3-7B-Base": 24191,
+   "ibm-granite/granite-3.1-8b-base": 21451
+  },
+  "chars": 64971,
+  "sha256": "96ff1e9bc1eaea6caf0fa325789ff021aed23863bca425d017f0625736d70af9"
+ },
+ {
+  "id": "arxiv-12",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 181,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 28444,
+   "mistralai/Mistral-7B-v0.3": 27881,
+   "mistralai/Mistral-Nemo-Base-2407": 26580,
+   "tiiuae/Falcon3-7B-Base": 32568,
+   "ibm-granite/granite-3.1-8b-base": 28399
+  },
+  "chars": 81940,
+  "sha256": "c29aaf40da7082d6c1cac3a6992bc2defc03303896da1ff6c450d42faba40d30"
+ },
+ {
+  "id": "arxiv-13",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 184,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 26756,
+   "mistralai/Mistral-7B-v0.3": 27235,
+   "mistralai/Mistral-Nemo-Base-2407": 26757,
+   "tiiuae/Falcon3-7B-Base": 30886,
+   "ibm-granite/granite-3.1-8b-base": 27335
+  },
+  "chars": 58953,
+  "sha256": "352d2a17f883216147ae1cd3115170e7505212853280b171103274f5d359ccac"
+ },
+ {
+  "id": "arxiv-14",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 187,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 21778,
+   "mistralai/Mistral-7B-v0.3": 22437,
+   "mistralai/Mistral-Nemo-Base-2407": 21734,
+   "tiiuae/Falcon3-7B-Base": 25552,
+   "ibm-granite/granite-3.1-8b-base": 22439
+  },
+  "chars": 57795,
+  "sha256": "574e7175fd788df078e4070a6f8b6e2aa95220cf195576ff5adf4ff4f0ff7ed9"
+ },
+ {
+  "id": "arxiv-15",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 207,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20164,
+   "mistralai/Mistral-7B-v0.3": 21101,
+   "mistralai/Mistral-Nemo-Base-2407": 20115,
+   "tiiuae/Falcon3-7B-Base": 23128,
+   "ibm-granite/granite-3.1-8b-base": 21116
+  },
+  "chars": 86544,
+  "sha256": "b79ec101693e8f9aba0d44047da53b757da74dd4c16b4ee433cdef0493f12e32"
+ },
+ {
+  "id": "arxiv-16",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 212,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 19700,
+   "mistralai/Mistral-7B-v0.3": 20386,
+   "mistralai/Mistral-Nemo-Base-2407": 19324,
+   "tiiuae/Falcon3-7B-Base": 22006,
+   "ibm-granite/granite-3.1-8b-base": 20611
+  },
+  "chars": 87619,
+  "sha256": "80f601860adbaaf22d7897352a99630e3c8a3e9041c8e17fd2bc785da98ed18b"
+ },
+ {
+  "id": "arxiv-17",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 221,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 24035,
+   "mistralai/Mistral-7B-v0.3": 24600,
+   "mistralai/Mistral-Nemo-Base-2407": 23748,
+   "tiiuae/Falcon3-7B-Base": 27265,
+   "ibm-granite/granite-3.1-8b-base": 24910
+  },
+  "chars": 92929,
+  "sha256": "e427093d36b76dc56186b3974aef914f7cb54d6e8bfca2660df60cc648b9893a"
+ },
+ {
+  "id": "arxiv-18",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 252,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 16874,
+   "mistralai/Mistral-7B-v0.3": 17332,
+   "mistralai/Mistral-Nemo-Base-2407": 16754,
+   "tiiuae/Falcon3-7B-Base": 18988,
+   "ibm-granite/granite-3.1-8b-base": 17606
+  },
+  "chars": 67990,
+  "sha256": "0bd84c2e048f3bdaf58e8a2a227210a4e744001698aaa9fe350514f78963caa3"
+ },
+ {
+  "id": "arxiv-19",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 258,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 65790,
+   "mistralai/Mistral-7B-v0.3": 69136,
+   "mistralai/Mistral-Nemo-Base-2407": 64843,
+   "tiiuae/Falcon3-7B-Base": 72343,
+   "ibm-granite/granite-3.1-8b-base": 71013
+  },
+  "chars": 260494,
+  "sha256": "d168d1ceaa30bfca75416db3c03b51322b7cc9105e1c65e23b31e8c106801798"
+ },
+ {
+  "id": "arxiv-20",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 264,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 30898,
+   "mistralai/Mistral-7B-v0.3": 31653,
+   "mistralai/Mistral-Nemo-Base-2407": 30257,
+   "tiiuae/Falcon3-7B-Base": 34760,
+   "ibm-granite/granite-3.1-8b-base": 32281
+  },
+  "chars": 112735,
+  "sha256": "7a324de373c7c2fa3a33c367caee66a8c6422ece485feb15ed95b427cdadd6d5"
+ },
+ {
+  "id": "arxiv-21",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 283,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20918,
+   "mistralai/Mistral-7B-v0.3": 21384,
+   "mistralai/Mistral-Nemo-Base-2407": 20740,
+   "tiiuae/Falcon3-7B-Base": 23242,
+   "ibm-granite/granite-3.1-8b-base": 21858
+  },
+  "chars": 88287,
+  "sha256": "b391c143c795545ada82005b0f3229ad9f386f289092ba369334925c54bd36d1"
+ },
+ {
+  "id": "arxiv-22",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 295,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 37091,
+   "mistralai/Mistral-7B-v0.3": 37645,
+   "mistralai/Mistral-Nemo-Base-2407": 36258,
+   "tiiuae/Falcon3-7B-Base": 42405,
+   "ibm-granite/granite-3.1-8b-base": 38110
+  },
+  "chars": 126531,
+  "sha256": "db72ce554e96a6d08403ce6e6e65e4aece3858499752f92915946d4f9a254cb8"
+ },
+ {
+  "id": "arxiv-23",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 298,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 23730,
+   "mistralai/Mistral-7B-v0.3": 24598,
+   "mistralai/Mistral-Nemo-Base-2407": 23308,
+   "tiiuae/Falcon3-7B-Base": 27216,
+   "ibm-granite/granite-3.1-8b-base": 24844
+  },
+  "chars": 89261,
+  "sha256": "354945e43518b6d8f641ba3b9202fae1f24a6b51522518b2fc333daa8277e751"
+ },
+ {
+  "id": "arxiv-24",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 321,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 21120,
+   "mistralai/Mistral-7B-v0.3": 21757,
+   "mistralai/Mistral-Nemo-Base-2407": 20822,
+   "tiiuae/Falcon3-7B-Base": 24056,
+   "ibm-granite/granite-3.1-8b-base": 21959
+  },
+  "chars": 78775,
+  "sha256": "4041c3e8b8b3c21cb4fb79f19cca9811565137b1649da3bef865e40c98950ffa"
+ },
+ {
+  "id": "arxiv-25",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 327,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 26371,
+   "mistralai/Mistral-7B-v0.3": 27192,
+   "mistralai/Mistral-Nemo-Base-2407": 26373,
+   "tiiuae/Falcon3-7B-Base": 29336,
+   "ibm-granite/granite-3.1-8b-base": 27404
+  },
+  "chars": 88909,
+  "sha256": "796a22ccd843fac9e1f51aa88b88620168e444260cbc2e5c4477e9dfb9abf741"
+ },
+ {
+  "id": "arxiv-26",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 357,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 22791,
+   "mistralai/Mistral-7B-v0.3": 23481,
+   "mistralai/Mistral-Nemo-Base-2407": 22313,
+   "tiiuae/Falcon3-7B-Base": 26206,
+   "ibm-granite/granite-3.1-8b-base": 23654
+  },
+  "chars": 84667,
+  "sha256": "09763de457d5c8e6f93efc9bafae763103b7e27a8e524cdfc9d1ac159ecee5eb"
+ },
+ {
+  "id": "arxiv-27",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 367,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 32412,
+   "mistralai/Mistral-7B-v0.3": 33492,
+   "mistralai/Mistral-Nemo-Base-2407": 32114,
+   "tiiuae/Falcon3-7B-Base": 38704,
+   "ibm-granite/granite-3.1-8b-base": 33221
+  },
+  "chars": 116199,
+  "sha256": "57d32d13924f610014a7e26e702a3590a81763c191d48d0cbbe547a4bccdd0a7"
+ },
+ {
+  "id": "arxiv-28",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 377,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 30303,
+   "mistralai/Mistral-7B-v0.3": 32280,
+   "mistralai/Mistral-Nemo-Base-2407": 30495,
+   "tiiuae/Falcon3-7B-Base": 34522,
+   "ibm-granite/granite-3.1-8b-base": 33072
+  },
+  "chars": 110098,
+  "sha256": "d507494d4deb58a9b492a0506848ab70b06f4534d14d61dcb87c3aba22c202a3"
+ },
+ {
+  "id": "arxiv-29",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 382,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17600,
+   "mistralai/Mistral-7B-v0.3": 18022,
+   "mistralai/Mistral-Nemo-Base-2407": 17237,
+   "tiiuae/Falcon3-7B-Base": 20455,
+   "ibm-granite/granite-3.1-8b-base": 18539
+  },
+  "chars": 61079,
+  "sha256": "3dddec265b01d63da06c58f7ac13c2a0da43b5548ae6322339867baaf631b22b"
+ },
+ {
+  "id": "arxiv-30",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 393,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 16794,
+   "mistralai/Mistral-7B-v0.3": 17489,
+   "mistralai/Mistral-Nemo-Base-2407": 16719,
+   "tiiuae/Falcon3-7B-Base": 18419,
+   "ibm-granite/granite-3.1-8b-base": 17689
+  },
+  "chars": 69229,
+  "sha256": "ae4306b1da1b72e6396de952918ed8a2e81f74f32151ff85de818827351fe80b"
+ },
+ {
+  "id": "arxiv-31",
+  "source": "arxiv",
+  "repo": "ccdv/arxiv-summarization",
+  "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+  "split": "test",
+  "index": 412,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 18477,
+   "mistralai/Mistral-7B-v0.3": 19279,
+   "mistralai/Mistral-Nemo-Base-2407": 18275,
+   "tiiuae/Falcon3-7B-Base": 21010,
+   "ibm-granite/granite-3.1-8b-base": 19363
+  },
+  "chars": 72066,
+  "sha256": "3a1ae0096646284fa27ceead7284a33f7005fbbfa8c697cd9faab052745031b7"
+ },
+ {
+  "id": "govreport-00",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 12,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17474,
+   "mistralai/Mistral-7B-v0.3": 19240,
+   "mistralai/Mistral-Nemo-Base-2407": 17642,
+   "tiiuae/Falcon3-7B-Base": 17348,
+   "ibm-granite/granite-3.1-8b-base": 20400
+  },
+  "chars": 93846,
+  "sha256": "9457c26e3dd229545ecb597779f7ca593d62660c926e72b7dab98a9fb3123c26"
+ },
+ {
+  "id": "govreport-01",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 26,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 19010,
+   "mistralai/Mistral-7B-v0.3": 21395,
+   "mistralai/Mistral-Nemo-Base-2407": 19357,
+   "tiiuae/Falcon3-7B-Base": 19039,
+   "ibm-granite/granite-3.1-8b-base": 22418
+  },
+  "chars": 86688,
+  "sha256": "0bd487a48af863abf590e108f52554a2e1c18061691c8cfe5f66246731b0ca76"
+ },
+ {
+  "id": "govreport-02",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 42,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 19127,
+   "mistralai/Mistral-7B-v0.3": 20728,
+   "mistralai/Mistral-Nemo-Base-2407": 19304,
+   "tiiuae/Falcon3-7B-Base": 19073,
+   "ibm-granite/granite-3.1-8b-base": 22196
+  },
+  "chars": 102656,
+  "sha256": "f7111acefcada1fc866be97056d1c24d36fd2c35c93f8939d8258deb8aebcb1c"
+ },
+ {
+  "id": "govreport-03",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 49,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 18907,
+   "mistralai/Mistral-7B-v0.3": 21086,
+   "mistralai/Mistral-Nemo-Base-2407": 19620,
+   "tiiuae/Falcon3-7B-Base": 18828,
+   "ibm-granite/granite-3.1-8b-base": 22066
+  },
+  "chars": 106470,
+  "sha256": "ad0bc51a555ebceca2f47bdd7cf7514508bc5ee6e467ea306b1235ba43fbebc9"
+ },
+ {
+  "id": "govreport-04",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 51,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20921,
+   "mistralai/Mistral-7B-v0.3": 23447,
+   "mistralai/Mistral-Nemo-Base-2407": 21528,
+   "tiiuae/Falcon3-7B-Base": 20825,
+   "ibm-granite/granite-3.1-8b-base": 23974
+  },
+  "chars": 112274,
+  "sha256": "4f8f1a5432b5f883fa68fb9bcf32e5393b2cb19faefb4898b4f51acb6ce50ea6"
+ },
+ {
+  "id": "govreport-05",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 54,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17829,
+   "mistralai/Mistral-7B-v0.3": 19492,
+   "mistralai/Mistral-Nemo-Base-2407": 17992,
+   "tiiuae/Falcon3-7B-Base": 17645,
+   "ibm-granite/granite-3.1-8b-base": 20599
+  },
+  "chars": 102039,
+  "sha256": "7c024f755d8e9944e5405f3e5700470293e28b357591cee48d9e34af3dd4330d"
+ },
+ {
+  "id": "govreport-06",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 81,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 23099,
+   "mistralai/Mistral-7B-v0.3": 25371,
+   "mistralai/Mistral-Nemo-Base-2407": 23269,
+   "tiiuae/Falcon3-7B-Base": 23144,
+   "ibm-granite/granite-3.1-8b-base": 27518
+  },
+  "chars": 117849,
+  "sha256": "0a9cadab50b2c47b05510d41f67c51371361850547a940980329b6b721c304e0"
+ },
+ {
+  "id": "govreport-07",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 84,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 21758,
+   "mistralai/Mistral-7B-v0.3": 24543,
+   "mistralai/Mistral-Nemo-Base-2407": 22001,
+   "tiiuae/Falcon3-7B-Base": 21539,
+   "ibm-granite/granite-3.1-8b-base": 25785
+  },
+  "chars": 114211,
+  "sha256": "9c91438d8f4106b2584078077b7094f364762c09349b0fadcf141fcb702a3c6b"
+ },
+ {
+  "id": "govreport-08",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 85,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 22081,
+   "mistralai/Mistral-7B-v0.3": 24034,
+   "mistralai/Mistral-Nemo-Base-2407": 22244,
+   "tiiuae/Falcon3-7B-Base": 22150,
+   "ibm-granite/granite-3.1-8b-base": 25509
+  },
+  "chars": 121581,
+  "sha256": "2de32a4358d10d6e7d667e7ef3e69ae2e86adc9150566a74dbfd7e55f3b01153"
+ },
+ {
+  "id": "govreport-09",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 91,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 16910,
+   "mistralai/Mistral-7B-v0.3": 18810,
+   "mistralai/Mistral-Nemo-Base-2407": 17466,
+   "tiiuae/Falcon3-7B-Base": 16769,
+   "ibm-granite/granite-3.1-8b-base": 20429
+  },
+  "chars": 90533,
+  "sha256": "a5422bb10da61a87126860e4201da1c0ecce90991bac6d257bc8fec2cc851bbf"
+ },
+ {
+  "id": "govreport-10",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 92,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 22302,
+   "mistralai/Mistral-7B-v0.3": 23925,
+   "mistralai/Mistral-Nemo-Base-2407": 22515,
+   "tiiuae/Falcon3-7B-Base": 22492,
+   "ibm-granite/granite-3.1-8b-base": 25588
+  },
+  "chars": 106150,
+  "sha256": "99633dc13313cccef6e214567c51d62a04a9524f0b26c4a6f31bf4219de65726"
+ },
+ {
+  "id": "govreport-11",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 100,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17653,
+   "mistralai/Mistral-7B-v0.3": 18781,
+   "mistralai/Mistral-Nemo-Base-2407": 17865,
+   "tiiuae/Falcon3-7B-Base": 17593,
+   "ibm-granite/granite-3.1-8b-base": 19618
+  },
+  "chars": 87847,
+  "sha256": "4dbc36155d39e47c3cd9ea40be702398713621ae1d77757005bf36c22b9def03"
+ },
+ {
+  "id": "govreport-12",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 140,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 31837,
+   "mistralai/Mistral-7B-v0.3": 36469,
+   "mistralai/Mistral-Nemo-Base-2407": 31966,
+   "tiiuae/Falcon3-7B-Base": 31646,
+   "ibm-granite/granite-3.1-8b-base": 39340
+  },
+  "chars": 172747,
+  "sha256": "0e53692315d71fe11e4f81d9321e8082a5ce951be6b94bb6dc6d69a2c28e4f2f"
+ },
+ {
+  "id": "govreport-13",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 145,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 22481,
+   "mistralai/Mistral-7B-v0.3": 24761,
+   "mistralai/Mistral-Nemo-Base-2407": 22843,
+   "tiiuae/Falcon3-7B-Base": 22648,
+   "ibm-granite/granite-3.1-8b-base": 25935
+  },
+  "chars": 116234,
+  "sha256": "4ee0fe67e86d9a1e38df28801df338595092427be3630528820570aca22a4e5f"
+ },
+ {
+  "id": "govreport-14",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 159,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 27385,
+   "mistralai/Mistral-7B-v0.3": 30312,
+   "mistralai/Mistral-Nemo-Base-2407": 27931,
+   "tiiuae/Falcon3-7B-Base": 27442,
+   "ibm-granite/granite-3.1-8b-base": 31546
+  },
+  "chars": 135957,
+  "sha256": "f48d6018b5a2669d110e22178d6619bbe27ddaf2b8073ecc17ff7fbc92fc4828"
+ },
+ {
+  "id": "govreport-15",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 163,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 27629,
+   "mistralai/Mistral-7B-v0.3": 30323,
+   "mistralai/Mistral-Nemo-Base-2407": 28338,
+   "tiiuae/Falcon3-7B-Base": 27502,
+   "ibm-granite/granite-3.1-8b-base": 32268
+  },
+  "chars": 148913,
+  "sha256": "142c9c8163ea577384039513c746df2dcc0a4c7587cc105552db7a648887dc34"
+ },
+ {
+  "id": "govreport-16",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 169,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 23364,
+   "mistralai/Mistral-7B-v0.3": 25455,
+   "mistralai/Mistral-Nemo-Base-2407": 23363,
+   "tiiuae/Falcon3-7B-Base": 22903,
+   "ibm-granite/granite-3.1-8b-base": 27903
+  },
+  "chars": 118217,
+  "sha256": "c3d0aed1820df4469ec818adbd2d01acc7f7f891de7dc550cab6692dde8009c4"
+ },
+ {
+  "id": "govreport-17",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 170,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 27375,
+   "mistralai/Mistral-7B-v0.3": 30411,
+   "mistralai/Mistral-Nemo-Base-2407": 28533,
+   "tiiuae/Falcon3-7B-Base": 27195,
+   "ibm-granite/granite-3.1-8b-base": 31310
+  },
+  "chars": 136011,
+  "sha256": "0e1647f75473647177c3b35a0c26b57784576f9d56f9b42330d4f4e87e17f684"
+ },
+ {
+  "id": "govreport-18",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 173,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 16570,
+   "mistralai/Mistral-7B-v0.3": 18186,
+   "mistralai/Mistral-Nemo-Base-2407": 17019,
+   "tiiuae/Falcon3-7B-Base": 16506,
+   "ibm-granite/granite-3.1-8b-base": 19334
+  },
+  "chars": 94940,
+  "sha256": "de803f52e2e978398ba2b05d18a0333bfdd03c8739a5b981673e5809993e4533"
+ },
+ {
+  "id": "govreport-19",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 188,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17849,
+   "mistralai/Mistral-7B-v0.3": 19534,
+   "mistralai/Mistral-Nemo-Base-2407": 18192,
+   "tiiuae/Falcon3-7B-Base": 17808,
+   "ibm-granite/granite-3.1-8b-base": 21246
+  },
+  "chars": 95829,
+  "sha256": "cf8572524412053d48152157a58eefc391184f2b28243e9c5edcb04f3a3d7a71"
+ },
+ {
+  "id": "govreport-20",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 189,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 34862,
+   "mistralai/Mistral-7B-v0.3": 37905,
+   "mistralai/Mistral-Nemo-Base-2407": 35252,
+   "tiiuae/Falcon3-7B-Base": 34688,
+   "ibm-granite/granite-3.1-8b-base": 41346
+  },
+  "chars": 189268,
+  "sha256": "80ed9b5d6234dcffcb86d0c0b73f79302729bf58ee0a3ee0ae15cf19c8a1751d"
+ },
+ {
+  "id": "govreport-21",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 252,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 23738,
+   "mistralai/Mistral-7B-v0.3": 26015,
+   "mistralai/Mistral-Nemo-Base-2407": 23898,
+   "tiiuae/Falcon3-7B-Base": 23392,
+   "ibm-granite/granite-3.1-8b-base": 26636
+  },
+  "chars": 113755,
+  "sha256": "ef7a9a8458809ad2eda26ebe3e622190cf48be619c556aa9584360978b19256d"
+ },
+ {
+  "id": "govreport-22",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 253,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 16903,
+   "mistralai/Mistral-7B-v0.3": 18852,
+   "mistralai/Mistral-Nemo-Base-2407": 17377,
+   "tiiuae/Falcon3-7B-Base": 16826,
+   "ibm-granite/granite-3.1-8b-base": 19107
+  },
+  "chars": 87212,
+  "sha256": "f2ddf66b3c3922c36d5a0d750a7b9063b1315fbd50616cd79eb6ee2cdc5ff7cb"
+ },
+ {
+  "id": "govreport-23",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 256,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17845,
+   "mistralai/Mistral-7B-v0.3": 19521,
+   "mistralai/Mistral-Nemo-Base-2407": 17914,
+   "tiiuae/Falcon3-7B-Base": 17534,
+   "ibm-granite/granite-3.1-8b-base": 20535
+  },
+  "chars": 96655,
+  "sha256": "e2ed98c63bab60440bf856dedf6e3cf67bbabae73e5f0f13b1b15a3504ad9ec0"
+ },
+ {
+  "id": "govreport-24",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 262,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 20441,
+   "mistralai/Mistral-7B-v0.3": 22046,
+   "mistralai/Mistral-Nemo-Base-2407": 20773,
+   "tiiuae/Falcon3-7B-Base": 20438,
+   "ibm-granite/granite-3.1-8b-base": 24299
+  },
+  "chars": 112780,
+  "sha256": "4a5b0e796f6add4b1e21aba28aac0f48ba2c8c40e1462fe7e01d63befe366df6"
+ },
+ {
+  "id": "govreport-25",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 297,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 26535,
+   "mistralai/Mistral-7B-v0.3": 29254,
+   "mistralai/Mistral-Nemo-Base-2407": 27577,
+   "tiiuae/Falcon3-7B-Base": 26539,
+   "ibm-granite/granite-3.1-8b-base": 29872
+  },
+  "chars": 156731,
+  "sha256": "fa6cd0e4236651e70163801a1cd519bdf8d5038d8c34d8f039b20cc623f3557b"
+ },
+ {
+  "id": "govreport-26",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 327,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 19824,
+   "mistralai/Mistral-7B-v0.3": 21311,
+   "mistralai/Mistral-Nemo-Base-2407": 20069,
+   "tiiuae/Falcon3-7B-Base": 20005,
+   "ibm-granite/granite-3.1-8b-base": 23204
+  },
+  "chars": 116538,
+  "sha256": "75cfa4f27587260527fc73a37e78b06b8da08554265a0ec533494634dfd2374a"
+ },
+ {
+  "id": "govreport-27",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 329,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 22930,
+   "mistralai/Mistral-7B-v0.3": 24505,
+   "mistralai/Mistral-Nemo-Base-2407": 23108,
+   "tiiuae/Falcon3-7B-Base": 23305,
+   "ibm-granite/granite-3.1-8b-base": 25672
+  },
+  "chars": 95416,
+  "sha256": "61955c962b2d66520a8590d7939d053f80b74ec08adb8da1780799343ed66680"
+ },
+ {
+  "id": "govreport-28",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 339,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 17226,
+   "mistralai/Mistral-7B-v0.3": 18848,
+   "mistralai/Mistral-Nemo-Base-2407": 17318,
+   "tiiuae/Falcon3-7B-Base": 16644,
+   "ibm-granite/granite-3.1-8b-base": 20100
+  },
+  "chars": 92863,
+  "sha256": "03991f0e49cd90e978221adae2ea3d08b5b8d211ebde249862c69e7a6baf0dea"
+ },
+ {
+  "id": "govreport-29",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 356,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 16663,
+   "mistralai/Mistral-7B-v0.3": 18631,
+   "mistralai/Mistral-Nemo-Base-2407": 17215,
+   "tiiuae/Falcon3-7B-Base": 16788,
+   "ibm-granite/granite-3.1-8b-base": 19211
+  },
+  "chars": 91598,
+  "sha256": "abb2064c7efdac104f6705fd328cdb01ae54b7b5086eaa48c4b8f224dfa2be73"
+ },
+ {
+  "id": "govreport-30",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 364,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 24168,
+   "mistralai/Mistral-7B-v0.3": 26538,
+   "mistralai/Mistral-Nemo-Base-2407": 24483,
+   "tiiuae/Falcon3-7B-Base": 24213,
+   "ibm-granite/granite-3.1-8b-base": 28783
+  },
+  "chars": 124488,
+  "sha256": "0ad8a3443e6cad5def88c2f1bd9459746720a9cbff2984b6dc4dc233584f68fc"
+ },
+ {
+  "id": "govreport-31",
+  "source": "govreport",
+  "repo": "ccdv/govreport-summarization",
+  "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+  "split": "test",
+  "index": 369,
+  "tokens": {
+   "Qwen/Qwen2.5-7B": 22289,
+   "mistralai/Mistral-7B-v0.3": 24560,
+   "mistralai/Mistral-Nemo-Base-2407": 22188,
+   "tiiuae/Falcon3-7B-Base": 21556,
+   "ibm-granite/granite-3.1-8b-base": 26119
+  },
+  "chars": 117021,
+  "sha256": "6a7df0ec3776671ecdb69218ad9d13798dcc69459a0758dd3601757624617fe2"
+ }
+]

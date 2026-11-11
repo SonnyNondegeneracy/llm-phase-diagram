@@ -1,0 +1,51 @@
+{
+ "rule": {
+  "min_tokens": 16384,
+  "count": 32,
+  "max_chars": 400000,
+  "splits": [
+   "test",
+   "validation",
+   "train"
+  ],
+  "tokenizers": [
+   "Qwen/Qwen2.5-7B",
+   "mistralai/Mistral-7B-v0.3",
+   "mistralai/Mistral-Nemo-Base-2407",
+   "tiiuae/Falcon3-7B-Base",
+   "ibm-granite/granite-3.1-8b-base"
+  ]
+ },
+ "sources": {
+  "pg19": {
+   "repo": "emozilla/pg19",
+   "config": null,
+   "field": "text",
+   "revision": "c021754c8e01c5b1cc83a1f549c1f97fbbb756b8",
+   "kept": 32,
+   "scanned": {
+    "test": 35
+   }
+  },
+  "arxiv": {
+   "repo": "ccdv/arxiv-summarization",
+   "config": "document",
+   "field": "article",
+   "revision": "240aaf1a969b3f8cd0ade6986bfad0cd730ee288",
+   "kept": 32,
+   "scanned": {
+    "test": 413
+   }
+  },
+  "govreport": {
+   "repo": "ccdv/govreport-summarization",
+   "config": "document",
+   "field": "report",
+   "revision": "4e21184e01ae8017e2c036e180fe5e541fef60a0",
+   "kept": 32,
+   "scanned": {
+    "test": 370
+   }
+  }
+ }
+}
