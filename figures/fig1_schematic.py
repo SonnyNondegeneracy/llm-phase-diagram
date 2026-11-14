@@ -8,7 +8,7 @@
 (c) sketch around P*: the measured shape of the working phase (Fig. 3, P(working) > 0.5) scaled down, and stylised
     trajectories (one dot = one layer, light -> dark from first to last layer): trained (alpha ~ 0) relaxes to P*
     without overshoot and then jitters in place; untrained (alpha > 0) moves with persistent, near-equal steps and
-    crosses the working phase without staying. Strip below: the transition along training.
+    crosses the working phase without staying.
 Also writes fig1_work_points.json (the token clouds of the working-phase glyph), which fig1a_tikz.py draws in (a)."""
 import numpy as np
 from matplotlib.patches import Circle
@@ -38,12 +38,6 @@ else:
 axA = fig.add_axes(RECT([0.035, 0.075, 0.44, 0.88])); axB = fig.add_axes(RECT([0.6, 0.33, 0.36, 0.625]))        # (b) phase map, (c) sketch around P*
 LIM = 1.0; UNT = '#7d8590'                      # mid colour of the untrained path (light blue -> grey -> dark blue)
 def background(ax, alpha=0.85, scale=1.0, axes=True):
-    n = 400; X, Y = np.meshgrid(np.linspace(-LIM, LIM, n) * scale, np.linspace(-LIM, LIM, n) * scale); img = np.ones(X.shape + (4,)); img[..., 3] = 0
-    s = dict(u0=np.clip((-0.45 - X) / 0.5, 0, 1), uinf=np.clip((X - 0.45) / 0.5, 0, 1), d1=np.clip((-0.45 - Y) / 0.5, 0, 1), dD=np.clip((Y - 0.45) / 0.5, 0, 1))
-    for k, v in s.items():
-        c = np.array(mc.to_rgb(PH[k][0])); a = alpha * v ** 1.2          # edge phases: four low-saturation hues, distinct from the blue / red of the two groups
-        img[..., :3] = img[..., :3] * (1 - a[..., None]) + c * a[..., None]; img[..., 3] = np.maximum(img[..., 3], a)
-    ax.imshow(img, origin='lower', extent=[-LIM, LIM, -LIM, LIM], zorder=0, interpolation='bilinear')
     ax.set_xlim(-LIM, LIM); ax.set_ylim(-LIM, LIM); ax.set_aspect('equal'); ax.set_xticks([]); ax.set_yticks([])
     for s_ in ax.spines.values(): s_.set_visible(False)
     if not axes: return
@@ -62,16 +56,16 @@ def phase_blob(ax, c, k, z=0.3):
     B = gaussian_filter((Ps > 0.5).astype(float), 7)                       # smooth outline of the measured region
     o = np.array([np.log10(1.08), np.log10(117)])
     X, Y = (PB_X - o[0]) / k + c[0], (PB_Y - o[1]) / k + c[1]
-    for lo, al in [(0.3, 0.25), (0.4, 0.35), (0.5, 0.75)]: ax.contourf(X, Y, B, levels=[lo, 2], colors=[PB_TINT_W], alpha=al, zorder=z)   # soft edge
+    ax.contourf(X, Y, B, levels=[0.5, 2], colors=[PB_TINT_W], zorder=z); ax.contour(X, Y, B, levels=[0.5], colors=[TRN], linewidths=0.8, zorder=z + 0.05)   # sharp boundary
 # ---------------- phase map
 ax = axA; background(ax)
-cols = ['#1a1a1a', '#6b7078', '#a3a7ae']; CTR = np.array([[-1.25, -0.75], [1.25, -0.65], [0.0, 1.0]])
+cols = ['#1a1a1a', '#5d6168', '#9a9ea6']; CTR = np.array([[-1.25, -0.75], [1.25, -0.65], [0.0, 1.0]])
 _r = np.deg2rad(28); _R = np.array([[np.cos(_r), -np.sin(_r)], [np.sin(_r), np.cos(_r)]]); CW = _R @ np.diag([0.30, 0.03]) @ _R.T
 WORK_PTS = []
 def glyph(cx, cy, kind, size=0.36, edge='0.55'):
     a = ax.inset_axes([cx - size / 2, cy - size / 2 * 0.8, size, size * 0.8], transform=ax.transData, zorder=7)
     a.set_xlim(-3, 3); a.set_ylim(-2.4, 2.4); a.axis('off')
-    a.add_patch(plt.Rectangle((-3, -2.4), 6, 4.8, fc='#f7e3dd' if kind == 'work' else 'white', ec=edge, lw=0.5 if kind != 'work' else 0.9, alpha=0.95))
+    a.add_patch(plt.Rectangle((-3, -2.4), 6, 4.8, fc='#f7e3dd' if kind == 'work' else PB_TINT_D, ec=edge, lw=0.9))   # working phase: red box; the four edge limits (drifting phase): blue boxes
     if kind == 'dD':                                  # isotropic 3-D clouds, drawn in perspective (depth = dot size / shade)
         el, az = np.deg2rad(20), np.deg2rad(30)
         def proj(P):
@@ -87,31 +81,31 @@ def glyph(cx, cy, kind, size=0.36, edge='0.55'):
             for ring in (np.c_[np.cos(th), np.sin(th), 0 * th], np.c_[np.cos(th), 0 * th, np.sin(th)], np.c_[0 * th, np.cos(th), np.sin(th)]):
                 q, dep = proj(RB * ring); q += ctr; back = dep > 0
                 a.plot(*np.where(back[:, None], np.nan, q).T, color=c, lw=0.55, alpha=0.85); a.plot(*np.where(back[:, None], q, np.nan).T, color=c, lw=0.35, alpha=0.3, ls=(0, (1.5, 1.5)))
-            n = 55; v = rng.normal(size=(n, 3)); v /= np.linalg.norm(v, axis=1)[:, None]; P = v * RB * rng.uniform(0, 1, n)[:, None] ** (1 / 3)
+            n = 40; v = rng.normal(size=(n, 3)); v /= np.linalg.norm(v, axis=1)[:, None]; P = v * RB * rng.uniform(0, 1, n)[:, None] ** (1 / 3)
             q, depth = proj(P); q = q + ctr; k = np.argsort(-depth); t = (depth[k] - depth.min()) / np.ptp(depth)
-            a.scatter(q[k, 0], q[k, 1], s=0.15 + 1.1 * (1 - t), color=c, lw=0, alpha=0.3 + 0.7 * (1 - t))
+            a.scatter(q[k, 0], q[k, 1], s=0.8 + 2.4 * (1 - t), color=c, lw=0, alpha=0.5 + 0.5 * (1 - t))
             a.plot(*ctr, marker='+', color='k', ms=3.5, mew=0.7, zorder=5)
         return
-    n = 70
+    n = 45
     for i, c in enumerate(cols):
         ctr = CTR[i]
         if kind == 'work': p = rng.multivariate_normal(ctr, CW, n); WORK_PTS.append(dict(col=c, ctr=list(map(float, ctr)), pts=p.tolist()))
         if kind == 'u0': ctr = np.zeros(2); p = rng.multivariate_normal(ctr, CW, n)
         if kind == 'uinf': p = rng.multivariate_normal(ctr, CW * 0.05, n)
         if kind == 'd1': p = ctr + np.outer(rng.normal(0, 0.55, n), [np.cos(_r), np.sin(_r)])
-        a.scatter(p[:, 0], p[:, 1], s=2.4 if kind == 'uinf' else 1.2, color=c, lw=0, alpha=0.8)
+        a.scatter(p[:, 0], p[:, 1], s=4.5 if kind == 'uinf' else 3.2, color=c, lw=0, alpha=0.9)
         a.plot(*ctr, marker='+', color='k', ms=3.5, mew=0.7, zorder=5)
 G, GS = 0.7, 0.5                                     # glyph centre offset and size (larger: the map is filled)
-glyph(-G, 0, 'u0', GS); glyph(G, 0, 'uinf', GS); glyph(0, -G, 'd1', GS); glyph(0, G, 'dD', GS)
+glyph(-G, 0, 'u0', GS, UNT); glyph(G, 0, 'uinf', GS, UNT); glyph(0, -G, 'd1', GS, UNT); glyph(0, G, 'dD', GS, UNT)
 lk = dict(fontsize=FS_TEXT, ha='center', va='center')
-ax.text(-G, 0.255, r'$u\to0$', color=PH['u0'][1], **lk); 
-ax.text(G, 0.255, r'$u\to\infty$', color=PH['uinf'][1], **lk); 
-ax.text(0, -G + 0.255, r'$d_C\to1$', color=PH['d1'][1], **lk)
-ax.text(0, G + 0.255, r'$d_C\to D$', color=PH['dD'][1], **lk)
+ax.text(-G, 0.255, r'$u\to0$', color=INK, **lk); 
+ax.text(G, 0.255, r'$u\to\infty$', color=INK, **lk); 
+ax.text(0, -G + 0.255, r'$d_C\to1$', color=INK, **lk)
+ax.text(0, G + 0.255, r'$d_C\to D$', color=INK, **lk)
 
 ZM = 0.29                                                         # half-width of the region shown in (c), in map units
 ax.text(-0.93, -0.93, 'drifting phase', color=UNTD, fontsize=FS_TEXT, ha='left', va='bottom', zorder=9)   # the outer region: flows drift towards one of the four limits
-glyph(0, 0.0, 'work', size=0.5, edge=EDGE); ax.text(0, ZM + 0.075, 'working phase', color=EDGE, fontsize=FS_TEXT, ha='center', va='center', zorder=9)
+glyph(0, 0.0, 'work', size=0.5, edge=EDGE); ax.text(0, ZM + 0.075, 'working phase', color=TRND, fontsize=FS_TEXT, ha='center', va='center', zorder=9)
 # ---------------- (c): sketch around P*, with the same axes as the map
 ax = axB; background(ax, alpha=0.85, scale=ZM, axes=False)
 _ak = dict(arrowstyle='-|>', color=INK, lw=0.7, mutation_scale=7, shrinkA=0, shrinkB=0)
@@ -157,39 +151,8 @@ ax.plot(*c0, marker='*', ms=10, color=PSTAR_FILL, mec=PSTAR_EDGE, mew=0.7, zorde
 ax.text(c0[0] + 0.08, c0[1] - 0.09, r'$P^*$', color=INK, fontsize=FS_TEXT, ha='left', va='center', zorder=9)
 # direct labels next to each path (no legend)
 ax.text(-0.78, 0.68, 'trained', color=CMT(0.8), fontsize=FS_TEXT, ha='center', va='bottom', zorder=10)
-_iu = int(np.argmax(U[:, 0] > -0.8)); ax.text(U[_iu, 0] + 0.02, U[_iu, 1] - 0.24, 'untrained', color=CMU(0.85), fontsize=FS_TEXT, ha='left', va='top', zorder=10)
-# ---------------- strip below (c): the transition with training as six frames, each a ball on a curve (hump -> flat ->
-# deepening well) with its path (one dot = one layer, light -> dark); dashed line = phase boundary between frames 3 and 4.
-NF, FW, GAP = 6, 0.56, 0.09
-axC = fig.add_axes(RECT([0.575, 0.03, 0.41, 0.25])); x_tot = NF * FW + (NF - 1) * GAP
-axC.set_xlim(-0.02, x_tot + 0.02); axC.set_ylim(-0.32, 0.6); axC.set_aspect('equal'); axC.axis('off')
-TB, TT = UNT_TINT, TRN_TINT
-shape = [(-0.16, 0.0), (-0.10, 0.0), (-0.04, 0.0), (0.05, 0.0), (0.12, 0.0), (0.22, 0.0)]   # continuous: hump -> flat -> deepening well
-def _path(k, a, s0=0.7, v0=0.0, n=4):                                             # damped ball on the arc: v <- a v - k s (one step = one layer)
-    x, v, P = s0, v0, [s0]
-    for _ in range(n):
-        v = a * v - k * x; x = x + v; P.append(x)
-        if x > 1.0: break
-    return P
-# hump frames start near the top with an outward push; well frames start on the side at rest
-paths = [_path(k, a, s0, v0) for k, a, s0, v0 in [(-1.0, .3, .05, .5), (-0.7, .3, .05, .5), (-0.1, .3, .05, .5), (0.12, .3, .9, 0), (0.4, .1, .9, 0), (0.9, .3, .9, 0)]]
-for f, ((cu, tl), S) in enumerate(zip(shape, paths)):
-    x0f = f * (FW + GAP); s_ = np.linspace(-1, 1, 200); yf = lambda q: 0.25 + cu * q ** 2 - tl * q; X = x0f + (s_ + 1) / 2 * FW
-    un = f < 3; cm_ = CMU if un else CMT
-    axC.fill_between(X, -0.05, yf(s_), color=TB if un else TT, lw=0, zorder=0); axC.plot(X, yf(s_), color=cm_(0.75), lw=1.0, zorder=2)
-    S = np.array(S); n = len(S) - 1; px = lambda q: x0f + (q + 1) / 2 * FW; lift = 0.04
-    for k in range(n):                                                     # hop from layer k to k+1 along the curve, slightly lifted
-        q = np.linspace(S[k], S[k + 1], 40); seg = (q <= 1.0)
-        axC.plot(px(q[seg]), yf(q[seg]) + lift, color=cm_(0.35 + 0.6 * (k + 1) / n), lw=0.7, zorder=3, solid_capstyle='round')
-    for k in range(n + 1):
-        if S[k] > 1.0: continue
-        axC.plot(px(S[k]), yf(S[k]) + lift, 'o', ms=3.0 if k < n else 4.0, color=cm_(0.35 + 0.6 * k / n), mec='white', mew=0.4, zorder=4 + k * 0.01)
-    if S[-1] > 1.0:                                                        # leaves the frame
-        q1, q2 = 1.0, 1.25
-        axC.annotate('', xy=(px(q2), yf(q2) + lift), xytext=(px(q1), yf(q1) + lift), arrowprops=dict(arrowstyle='-|>', color=cm_(0.95), lw=0.7, mutation_scale=5, shrinkA=0, shrinkB=0), zorder=5)
-xb = 3 * FW + 2.5 * GAP; axC.plot([xb, xb], [-0.1, 0.55], color=INK, lw=0.7, ls=(0, (2.5, 1.5)), zorder=6)
-axC.annotate('', xy=(x_tot, -0.16), xytext=(0, -0.16), arrowprops=dict(arrowstyle='-|>', color=INK, lw=0.8, mutation_scale=7, shrinkA=0, shrinkB=0))
-axC.text(x_tot / 2, -0.2, 'training', fontsize=FS_TEXT, ha='center', va='top')
+_iu = int(np.argmax(U[:, 0] > -0.8)); ax.text(U[_iu, 0] - 0.1, U[_iu, 1] - 0.24, 'untrained', color=CMU(0.85), fontsize=FS_TEXT, ha='left', va='top', zorder=10)
+axB.set_position(RECT([0.58, 0.075, 0.40, 0.88])); axB.set_anchor('S')   # 2026-11-14: training strip below (c) removed; (c) takes the full height, bottom aligned with the u axis of (b)
 _r = RECT([0.0, 0.075, 0.44, 0.88]); fig.text(0.008, 0.995, '(a)', fontsize=FS_LETTER, ha='left', va='top'); fig.text(_r[0] - 0.035, 0.995, '(b)', fontsize=FS_LETTER, ha='left', va='top'); _rc = RECT([0.6, 0.33, 0.36, 0.625]); fig.text(_rc[0] - 0.045, 0.995, '(c)', fontsize=FS_LETTER, ha='left', va='top')
 json.dump(WORK_PTS, open(os.path.join(FIG_OUT, 'fig1_work_points.json'), 'w'))   # token clouds of the working-phase glyph, reused by fig1a_tikz.py
 [fig.savefig(os.path.join(FIG_OUT, 'fig1_schematic' + _e), dpi=300) for _e in ('.png', '.pdf')]; print('ok')

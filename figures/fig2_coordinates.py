@@ -6,7 +6,8 @@
 (d) the same in the (u, d_C) plane: thin = models, thick = median path over models (the thick lines of (b), (c)),
     open circle / dot = its first / last layer; star: P*."""
 from common import *
-from matplotlib.patches import Ellipse
+from matplotlib.patches import Ellipse, FancyArrow
+import matplotlib.patheffects as pe
 MOD = ['qwen1.5', 'qwen7', 'qwen14', 'mistral7', 'falcon3', 'granite', 'qwen35_4b', 'qwen35_9b']
 Z = {m: np.load(f'{RAW}/trained__{m}__0.npz') for m in MOD}
 grid = np.linspace(0, 1, 41)
@@ -17,15 +18,16 @@ FS = FS_TEXT
 # (a)
 ax = fig.add_subplot(gs[0]); ax.set_xlim(-3, 3); ax.set_ylim(-2.6, 2.6); ax.set_aspect('equal'); ax.axis('off'); rng = np.random.default_rng(1)
 for ctr in [(-1.9, -1.0), (1.9, -1.5), (-1.7, 1.5), (0.2, -2.0)]:
-    p = rng.multivariate_normal(ctr, np.eye(2) * 0.09, 35); ax.scatter(p[:, 0], p[:, 1], s=1, color='0.78', lw=0)
-ref = np.array([-0.3, -0.5]); ax.plot(*ref, marker='+', color=INK, ms=7, mew=1.1, zorder=5)
+    p = rng.multivariate_normal(ctr, np.eye(2) * 0.09, 35); ax.scatter(p[:, 0], p[:, 1], s=3.2, color='0.55', lw=0)
+ref = np.array([-0.3, -0.5]); ax.plot(*ref, marker='+', color=INK, ms=7, mew=1.1, zorder=8)
 ax.text(ref[0] + 0.1, ref[1] - 0.25, 'reference', fontsize=FS, ha='center', va='top', zorder=4)
-mu = np.array([1.3, 1.2]); cov = [[0.42, 0.26], [0.26, 0.3]]; p = rng.multivariate_normal(mu, cov, 90); ax.scatter(p[:, 0], p[:, 1], s=1.6, color='0.55', lw=0, zorder=3)
+mu = np.array([1.3, 1.2]); cov = [[0.42, 0.26], [0.26, 0.3]]; p = rng.multivariate_normal(mu, cov, 90); ax.scatter(p[:, 0], p[:, 1], s=4.0, color='0.25', lw=0, zorder=3)
 w, V = np.linalg.eigh(cov); ang = np.degrees(np.arctan2(V[1, 1], V[0, 1]))
 ax.add_patch(Ellipse(mu, 4 * np.sqrt(w[1]), 4 * np.sqrt(w[0]), angle=ang, fill=False, ec='0.4', lw=0.7))
-ax.annotate('', xy=mu, xytext=ref, arrowprops=dict(arrowstyle='-|>', color=INK, lw=1.3, mutation_scale=8, shrinkA=0, shrinkB=0), zorder=6)
-ax.text(0.3, 0.6, r'$\delta$', color=INK, fontsize=FS_AXIS, ha='right', va='center', zorder=7, bbox=dict(fc='white', ec='none', alpha=0.8, pad=0.3))
-ax.text(2.55, 1.9, r'$C$', color=INK, fontsize=FS_AXIS, ha='left', va='center')
+ax.add_patch(FancyArrow(*ref, *(mu - ref), width=0.055, head_width=0.26, head_length=0.32, length_includes_head=True, fc=INK, ec='none', zorder=6,
+                        path_effects=[pe.withStroke(linewidth=4.5, foreground='white')]))   # one polygon: the white outline does not split shaft and head
+ax.text(-0.08, 0.18, r'$\delta$', color=INK, fontsize=FS_AXIS, ha='right', va='center', zorder=7, bbox=dict(fc='white', ec='none', alpha=0.8, pad=0.3))
+ax.text(2.6, 1.35, r'$C$', color=INK, fontsize=FS_AXIS, ha='left', va='center', zorder=7)
 ax.text(0, -2.75, r'$u=\dfrac{|\delta|^2}{\sqrt{\mathrm{tr}\,C^2}}$    $d_C=\dfrac{(\mathrm{tr}\,C)^2}{\mathrm{tr}\,C^2}$', fontsize=FS_AXIS + 0.5, ha='center', va='top')
 AXA = ax
 # (b), (c)
@@ -50,7 +52,7 @@ ax.set_xticks(np.log10([0.1, 0.3, 1, 3])); ax.set_xticklabels(['0.1', '0.3', '1'
 ax.set_xlabel(r'$u$'); ax.set_ylabel(r'$d_C$', labelpad=1)
 LK = LEG
 _lg = ax.legend([plt.Line2D([], [], marker='o', ms=4, mfc='white', mec=INK, mew=0.9, lw=0), plt.Line2D([], [], marker='o', ms=3.6, color=INK, lw=0),
-           plt.Line2D([], [], marker='*', ms=7, color=PSTAR_FILL, mec=PSTAR_EDGE, mew=0.6, lw=0)], ['first layer', 'last layer', r'$P^*$'], loc='lower right', bbox_to_anchor=(0.985, 0.15), **{**LK, 'frameon': True, 'framealpha': 0.85, 'borderpad': 0.25, 'borderaxespad': 0.0})   # translucent white backing over the data
+           plt.Line2D([], [], marker='*', ms=7, color=PSTAR_FILL, mec=PSTAR_EDGE, mew=0.6, lw=0)], ['first layer', 'last layer', r'$P^*$'], loc='lower right', bbox_to_anchor=(1.0, 0.045), **{**LK, 'frameon': True, 'framealpha': 0.85, 'borderpad': 0.25, 'borderaxespad': 0.0})   # translucent white backing over the data
 _lg.get_frame().set(edgecolor='none', facecolor='white', boxstyle='round,pad=0.1')
 AXB.legend([plt.Line2D([], [], color=TRAINED, lw=0.7), plt.Line2D([], [], color=INK, lw=1.5)], ['model', 'median'], loc='lower right', **LK)
 letter(fig, ax, 'd'); letter(fig, AXA, 'a', dy=AXB.get_position().y1 - AXA.get_position().y1)   # (a) has no frame: align with the others

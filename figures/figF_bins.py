@@ -24,9 +24,9 @@ for ax, key, lab in [(axs[0], 'R', r'contraction rate $-\ln\rho$')]:
         dx = (k - 1.5) * 0.04
         for r in bl:
             sp = span(r['bin']); x = np.mean(sp) + dx; v, hi, lo = r[key]
-            if len(sp) > 1 and sp[1] > sp[0]: ax.plot(sp, [v, v], color=col, lw=0.7, alpha=0.7, zorder=2)
+            if len(sp) > 1 and sp[1] > sp[0]: ax.plot(sp, [v, v], color=col, lw=1.0, alpha=0.8, zorder=2)
             z0 = r['bin'] == '0'   # step 0 (initialisation): open marker, as in Figs. 5 and A
-            ax.errorbar([x], [v], yerr=[[lo], [hi]], fmt='o', ms=3.2, color=col, mfc='white' if z0 else col, mec=col if z0 else 'white', mew=0.6 if z0 else 0.4, elinewidth=0.7, capsize=1.5, zorder=3)
+            ax.errorbar([x], [v], yerr=[[lo], [hi]], fmt='o', ms=3.8, color=col, mfc='white' if z0 else col, mec=col if z0 else 'white', mew=0.8 if z0 else 0.5, elinewidth=1.0, capsize=1.8, zorder=3)
     ax.set_xlim(1.0, 5.35); ax.set_xticks([X0, 2, 3, 4, 5]); ax.set_xticklabels(['0', r'$10^2$', r'$10^3$', r'$10^4$', r'$10^5$'])
     ax.set_xlabel('training step', fontsize=FS_AXIS); ax.set_ylabel(lab, fontsize=FS_AXIS); ax.tick_params(labelsize=FS_KEY)
     for sp_ in ['top', 'right']: ax.spines[sp_].set_visible(False)
@@ -36,6 +36,6 @@ for ax, key, lab in [(axs[0], 'R', r'contraction rate $-\ln\rho$')]:
     ax.text((1.0 + XB) / 2, 0.97 if top else 0.03, 'drifting', transform=ax.get_xaxis_transform(), ha='center', va='top' if top else 'bottom', fontsize=FS_TEXT, color=UNTD)
     ax.text((XB + 5.35) / 2, 0.97, 'working', transform=ax.get_xaxis_transform(), ha='center', va='top', fontsize=FS_TEXT, color=TRND)
 axs[0].set_ylim(-0.04, 0.085)
-hs = [plt.Line2D([], [], color=c, marker='o', ms=3.2, lw=0) for c in COLS]
+hs = [plt.Line2D([], [], color=c, marker='o', ms=3.8, lw=0) for c in COLS]
 fig.legend(hs, NAMES, loc="upper center", ncol=2, fontsize=FS_KEY - 0.5, frameon=False, bbox_to_anchor=(0.53, 1.0), handletextpad=0.2, columnspacing=0.9)
 [fig.savefig(fig_path('figF_bins' + _e), dpi=300) for _e in ('.png', '.pdf')]; print('ok', [len(b) for b in blocks])

@@ -20,8 +20,8 @@ W = 510 / 72.27   # full width (\textwidth, 510 pt)
 W1 = 246 / 72.27  # single column (\columnwidth, 246 pt)
 INK = '#1a1a1a'; MUTED = '#5d6168'; GREY = '#8f949c'; TRAINED = '#b9bdc4'
 WALLL = '#6b7078'; EDGE = '#c8553d'
-UNT, UNTL, UNTD = '#2f6aa3', '#9dbbe2', '#1f4a80'          # untrained: base, light, dark
-TRN, TRNL, TRND = '#c4472b', '#ecb3a5', '#8a2f1d'          # trained: base, light, dark
+UNT, UNTL, UNTD = '#245d96', '#9dbbe2', '#1f4a80'          # untrained: base, light, dark (base darkened 2026-11-14 for greyscale print)
+TRN, TRNL, TRND = '#d4552f', '#ecb3a5', '#8a2f1d'          # trained: base, light, dark (base lightened 2026-11-14 for greyscale print)
 UNT_TINT, TRN_TINT = '#e6ebf2', '#f6e6e1'                  # background tints of the drifting / working phase
 PSTAR_FILL, PSTAR_EDGE = '#f2c14e', INK
 FS_LETTER, FS_AXIS, FS_TEXT = 9, 8.5, 7.5                # panel letters | axis and colour-bar titles | everything else
