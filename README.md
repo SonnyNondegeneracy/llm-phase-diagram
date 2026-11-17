@@ -56,6 +56,22 @@ DATA_DIR=/path/to/data sh run_all.sh
 | Choice of k (Fig. F-k) | `analysis/phase_k_choice.py` → `phase_k_choice.json`; `figures/figF_k.py` |
 | Fig. 1 (schematic) | `figures/fig1_schematic.py`, `figures/fig1a_tikz.py` |
 
+## Citation
+
+Paper: [arXiv:2611.19848](https://arxiv.org/abs/2611.19848)
+
+```bibtex
+@misc{song2026phasediagramtraininginference,
+      title={A phase diagram for training and inference in language models}, 
+      author={Zhuo-Yang Song and Zeyu Li and Qing-Hong Cao and Ming-xing Luo and Hua Xing Zhu},
+      year={2026},
+      eprint={2611.19848},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2611.19848}, 
+}
+```
+
 ## License
 
 The code is released under the MIT License (see `LICENSE`). The data in the data repository are released under CC BY 4.0.
